@@ -6,12 +6,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 BASE_DIR2 = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'your-secret-key-here'  # Replace this with a secure value in production
+ # Replace this with a secure value in production
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'akashaki.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
  # Add your domain or IP here when deploying
 
 # Application definition
