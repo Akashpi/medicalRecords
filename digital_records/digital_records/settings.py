@@ -9,7 +9,9 @@ BASE_DIR2 = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
  # Replace this with a secure value in production
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
+
+SECRET_KEY = 'hj4qq+9g^pdepl4ncy7j%q48^8+_cwhe!3z43gij_^q*vnc^%@'
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
  # Add your domain or IP here when deploying

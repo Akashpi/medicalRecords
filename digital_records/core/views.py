@@ -58,7 +58,7 @@ def ai_chat(request):
         user_message = data.get("message", "")
         api_url = "https://openrouter.ai/api/v1/chat/completions"
         headers = {
-            "Authorization": "Bearer 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",
+            "Authorization": "Bearer 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",
             "Content-Type": "application/json"
         }
         payload = {
